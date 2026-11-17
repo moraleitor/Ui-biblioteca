@@ -29,3 +29,7 @@ js/api.js         cliente HTTP del gateway
 js/views.js       pantallas
 js/app.js         enrutador por hash (#/library, #/scan, ...)
 ```
+
+## Despliegue en Vercel
+Es un sitio estático: en Vercel «Add New → Project», importa este repo, *Framework Preset: Other*, sin build.
+Antes, en `config.js` pon la URL pública del backend (`window.API_URL = "https://tu-api.onrender.com"`).
